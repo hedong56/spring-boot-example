@@ -1,7 +1,11 @@
 package com.example.demo.controller;
 
+import java.util.Date;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.example.demo.dto.UserInfo;
 
 
 
@@ -20,6 +24,18 @@ public class UserController {
 	@RequestMapping("hello")
 	public String showHello() {
 		return "hello world!";
+	}
+	
+	
+	@RequestMapping("getUserInfo")
+	public UserInfo getUserInfo(Long id) {
+		
+		if(id==1l) {
+			return new UserInfo(1L, "张三", new Date(), "四川绵阳");
+		}
+		
+		return null;
+		
 	}
 	
 	
