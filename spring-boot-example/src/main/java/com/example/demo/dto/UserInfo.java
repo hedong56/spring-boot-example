@@ -14,7 +14,7 @@ public class UserInfo implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	
-	private Long id;
+	private String id;
 	
 	private String name;
 	
@@ -28,8 +28,14 @@ public class UserInfo implements Serializable {
 		super();
 	}
 
-
-	public UserInfo(Long id, String name, Date birthday, String address) {
+	public UserInfo(String name, Date birthday, String address) {
+		super();
+		this.name = name;
+		this.birthday = birthday;
+		this.address = address;
+	}
+	
+	public UserInfo(String id, String name, Date birthday, String address) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -38,12 +44,12 @@ public class UserInfo implements Serializable {
 	}
 
 
-	public Long getId() {
+	public String getId() {
 		return id;
 	}
 
 
-	public void setId(Long id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
