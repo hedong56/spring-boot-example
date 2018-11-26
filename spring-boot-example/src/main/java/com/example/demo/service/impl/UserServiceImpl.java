@@ -1,5 +1,7 @@
 package com.example.demo.service.impl;
 
+import java.util.UUID;
+
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
@@ -17,6 +19,8 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public String add(UserInfo userInfo) {
+		String id=UUID.randomUUID().toString().replaceAll("-", "");
+		userInfo.setId(id);
 		userMapper.isnertUser(userInfo);
 		return userInfo.getId();
 	}

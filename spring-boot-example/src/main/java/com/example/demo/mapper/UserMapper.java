@@ -6,7 +6,7 @@ import com.example.demo.dto.UserInfo;
 
 public interface UserMapper {
 	
-	@Insert("insert into user_info(name,birthday,address) values(#{name},#{birthday},#{address})")
+	@Insert("insert into user_info(id,name,birthday,address) values(#{id},#{name},#{birthday},#{address})")
 	int isnertUser(UserInfo userInfo);
 
 }
