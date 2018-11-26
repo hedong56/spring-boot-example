@@ -1,12 +1,14 @@
 package com.example.demo.controller;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.util.Date;
 import java.util.UUID;
 
 import javax.annotation.Resource;
 
-import org.apache.commons.lang3.time.DateFormatUtils;
-import org.apache.commons.lang3.time.DateUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -48,8 +50,6 @@ public class UserController {
 		UserInfo userinfo= new UserInfo( "李四", new Date(), "四川绵阳");
 		return userService.add(userinfo);
 	}
-	
-	
 	
 	
 

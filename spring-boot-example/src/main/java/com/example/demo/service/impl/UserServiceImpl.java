@@ -19,8 +19,8 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public String add(UserInfo userInfo) {
-		String id=UUID.randomUUID().toString().replaceAll("-", "");
-		userInfo.setId(id);
+//		String id=UUID.randomUUID().toString().replaceAll("-", "");
+//		userInfo.setId(id);
 		userMapper.isnertUser(userInfo);
 		return userInfo.getId();
 	}
