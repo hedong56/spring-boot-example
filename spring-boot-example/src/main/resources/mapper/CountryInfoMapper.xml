@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.CountryInfoMapper">
+
+	
+	<select id="getCountryInfoByCode" parameterType="string" resultType="CountryInfo">
+		SELECT 
+		    id "id",
+			code "code",
+			full_name "fullName",
+			brief_name "briefName",
+			capital_name "capitalName",
+			population_size "populationSize",
+			cty_created_date  "ctyCreatedDate"
+		FROM
+			country_info 
+		WHERE upper(code)=upper(#{code})
+	</select>
+	
+	
+</mapper>
