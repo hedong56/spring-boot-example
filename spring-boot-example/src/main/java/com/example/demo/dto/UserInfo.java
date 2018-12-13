@@ -27,6 +27,12 @@ public class UserInfo implements Serializable {
 	public UserInfo() {
 		super();
 	}
+	
+	public UserInfo(String name, String address) {
+		super();
+		this.name = name;
+		this.address = address;
+	}
 
 	public UserInfo(String name, Date birthday, String address) {
 		super();

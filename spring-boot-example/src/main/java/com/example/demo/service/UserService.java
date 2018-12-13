@@ -15,4 +15,7 @@ public interface UserService {
 	 */
 	String add(UserInfo userInfo);
 
+	UserInfo getUserById(String id);
+	
+
 }

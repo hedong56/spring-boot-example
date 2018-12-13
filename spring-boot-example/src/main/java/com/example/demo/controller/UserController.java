@@ -1,14 +1,11 @@
 package com.example.demo.controller;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.util.Date;
 import java.util.UUID;
 
 import javax.annotation.Resource;
 
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -46,9 +43,15 @@ public class UserController {
 	
 	
 	@RequestMapping("add")
-	public String addUserInfo() {
-		UserInfo userinfo= new UserInfo( "李四", new Date(), "四川绵阳");
+	public String addUserInfo(UserInfo userinfo) {
+//		UserInfo userinfo= new UserInfo( "李四", new Date(), "四川绵阳");
+//		userinfo.setBirthday(new Date());
 		return userService.add(userinfo);
+	}
+	
+	@RequestMapping("getUser/{idkey}")
+	public UserInfo getUserById(@PathVariable("idkey") String id) {
+		return userService.getUserById(id);
 	}
 	
 	
