@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+	<!-- 日志级别：trace < debug < info < warn < error	 -->
+  <!-- 屏幕标准输出  -->
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>
+      		%date{yyyy-MM-dd HH:mm:ss.SSS} %-5level[%thread]%logger{56}.%method:%L - %msg%n
+      </pattern>
+    </encoder>
+  </appender>
+  
+  <!-- 通过class指明输出到文件 -->
+  <appender name="FILE_ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender" >
+  	<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+  		<level>ERROR</level>
+  	</filter>
+  	<encoder>
+  		<pattern>
+  			%date{yyyy-MM-dd HH:mm:ss.SSS} %-5level[%thread]%logger{56}.%method:%L - %msg%n
+  		</pattern>
+  	</encoder>
+  	<!-- 设置滚动策略 -->
+  	<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <!-- 文件路径名称 -->
+      <fileNamePattern>log/error.%d.log</fileNamePattern>
+      <!-- 最长保存月份 -->
+      <maxHistory>12</maxHistory> 
+    </rollingPolicy>
+  </appender>
+  
+  <!-- 通过class指明输出到文件 -->
+  <appender name="FILE_INFO" class="ch.qos.logback.core.rolling.RollingFileAppender" >
+  	<filter class="ch.qos.logback.classic.filter.LevelFilter">
+  		<level>ERROR</level>
+  		<onMatch>DENY</onMatch>
+  		<onMismatch>ACCEPT</onMismatch>
+  	</filter>
+  	<encoder>
+  		<pattern>
+  			%date{yyyy-MM-dd HH:mm:ss.SSS} %-5level[%thread]%logger{56}.%method:%L - %msg%n
+  		</pattern>
+  	</encoder>
+  	<!-- 设置滚动策略 -->
+  	<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <!-- 文件路径名称 -->
+      <fileNamePattern>log/info.%d.log</fileNamePattern>
+      <!-- 最长保存月份 -->
+      <maxHistory>6</maxHistory> 
+    </rollingPolicy>
+  </appender>
+
+  <!-- level 定义最低输出日志级别 	-->
+  <root level="trace">
+  	<!-- appender 日志输出目的地，屏幕、文件	 -->
+    <appender-ref ref="STDOUT" />
+    <appender-ref ref="FILE_ERROR" />
+    <appender-ref ref="FILE_INFO" />
+  </root>
+</configuration>
