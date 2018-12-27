@@ -16,6 +16,11 @@ public class UserInfo implements Serializable {
 	
 	private String id;
 	
+	//身份证编号
+	private String no;
+	//员工编号
+	private int empNo;
+	
 	private String name;
 	
 	private Date birthday;
@@ -26,6 +31,12 @@ public class UserInfo implements Serializable {
 
 	public UserInfo() {
 		super();
+	}
+	
+	public UserInfo(String no, int empNo) {
+		super();
+		this.no = no;
+		this.empNo = empNo;
 	}
 	
 	public UserInfo(String name, String address) {
@@ -101,7 +112,22 @@ public class UserInfo implements Serializable {
 	public String toString() {
 		return JSON.toJSONString(this,SerializerFeature.DisableCircularReferenceDetect,SerializerFeature.WriteDateUseDateFormat);
 	}
-	
-	
+
+	public String getNo() {
+		return no;
+	}
+
+	public void setNo(String no) {
+		this.no = no;
+	}
+
+	public int getEmpNo() {
+		return empNo;
+	}
+
+	public void setEmpNo(int empNo) {
+		this.empNo = empNo;
+	}
+
 
 }
