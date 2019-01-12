@@ -13,7 +13,7 @@ public interface UserMapper {
 	@Options(useGeneratedKeys=true,keyProperty="id",keyColumn="id")
 	int isnertUser(UserInfo userInfo);
 	
-	@Select("select u.id \"id\", u.name \"name\", u.birthday \"birthday\", u.address \"address\" from user_info u where u.id=#{id}")
+	@Select("select u.id, u.name, u.birthday, u.address from user_info u where u.id=#{id}")
 	UserInfo getUserById(String id);
 
 }

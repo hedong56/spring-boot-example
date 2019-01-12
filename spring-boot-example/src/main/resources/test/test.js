@@ -1,0 +1,1 @@
+classpath:/test/test.js
