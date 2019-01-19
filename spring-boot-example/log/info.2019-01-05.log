@@ -1,0 +1,174 @@
+2019-01-05 21:05:56.864 INFO [main]com.example.demo.service.UserServiceTest.logStarting:50 - Starting UserServiceTest on DESKTOP-50H34IA with PID 6724 (started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-05 21:05:56.870 INFO [main]com.example.demo.service.UserServiceTest.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-05 21:06:01.635 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:06:02.554 INFO [main]com.example.demo.service.UserServiceTest.logStarted:59 - Started UserServiceTest in 6.488 seconds (JVM running for 8.973)
+2019-01-05 21:06:03.073 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 - HikariPool-1 - Starting...
+2019-01-05 21:06:03.429 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 - HikariPool-1 - Start completed.
+2019-01-05 21:06:03.952 INFO [Thread-3]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:06:03.954 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:350 - HikariPool-1 - Shutdown initiated...
+2019-01-05 21:06:04.027 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:352 - HikariPool-1 - Shutdown completed.
+2019-01-05 21:06:34.709 INFO [main]com.example.demo.service.UserServiceTest.logStarting:50 - Starting UserServiceTest on DESKTOP-50H34IA with PID 2072 (started by 浣曚笢 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-05 21:06:34.713 INFO [main]com.example.demo.service.UserServiceTest.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-05 21:06:39.199 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:06:40.113 INFO [main]com.example.demo.service.UserServiceTest.logStarted:59 - Started UserServiceTest in 6.037 seconds (JVM running for 8.289)
+2019-01-05 21:06:40.700 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 - HikariPool-1 - Starting...
+2019-01-05 21:06:41.098 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 - HikariPool-1 - Start completed.
+2019-01-05 21:06:41.366 INFO [Thread-3]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:06:41.379 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:350 - HikariPool-1 - Shutdown initiated...
+2019-01-05 21:06:41.436 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:352 - HikariPool-1 - Shutdown completed.
+2019-01-05 21:15:21.082 INFO [main]com.example.demo.service.UserServiceTest.logStarting:50 - Starting UserServiceTest on DESKTOP-50H34IA with PID 976 (started by 浣曚笢 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-05 21:15:21.089 INFO [main]com.example.demo.service.UserServiceTest.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-05 21:15:25.707 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:15:26.653 INFO [main]com.example.demo.service.UserServiceTest.logStarted:59 - Started UserServiceTest in 6.227 seconds (JVM running for 7.807)
+2019-01-05 21:15:27.304 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 - HikariPool-1 - Starting...
+2019-01-05 21:15:27.609 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 - HikariPool-1 - Start completed.
+2019-01-05 21:15:27.927 INFO [Thread-3]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:15:27.935 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:350 - HikariPool-1 - Shutdown initiated...
+2019-01-05 21:15:28.049 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:352 - HikariPool-1 - Shutdown completed.
+2019-01-05 21:16:22.966 INFO [main]com.example.demo.service.UserServiceTest.logStarting:50 - Starting UserServiceTest on DESKTOP-50H34IA with PID 11576 (started by 浣曚笢 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-05 21:16:22.973 INFO [main]com.example.demo.service.UserServiceTest.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-05 21:16:27.595 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:16:28.510 INFO [main]com.example.demo.service.UserServiceTest.logStarted:59 - Started UserServiceTest in 6.307 seconds (JVM running for 7.769)
+2019-01-05 21:16:29.081 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 - HikariPool-1 - Starting...
+2019-01-05 21:16:29.359 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 - HikariPool-1 - Start completed.
+2019-01-05 21:16:30.063 INFO [Thread-3]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:16:30.071 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:350 - HikariPool-1 - Shutdown initiated...
+2019-01-05 21:16:30.198 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:352 - HikariPool-1 - Shutdown completed.
+2019-01-05 21:18:31.651 INFO [main]com.example.demo.service.UserServiceTest.logStarting:50 - Starting UserServiceTest on DESKTOP-50H34IA with PID 4308 (started by 浣曚笢 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-05 21:18:31.656 INFO [main]com.example.demo.service.UserServiceTest.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-05 21:18:35.785 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:18:36.604 INFO [main]com.example.demo.service.UserServiceTest.logStarted:59 - Started UserServiceTest in 5.606 seconds (JVM running for 7.115)
+2019-01-05 21:18:37.030 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 - HikariPool-1 - Starting...
+2019-01-05 21:18:37.362 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 - HikariPool-1 - Start completed.
+2019-01-05 21:18:37.690 INFO [Thread-3]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:18:37.695 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:350 - HikariPool-1 - Shutdown initiated...
+2019-01-05 21:18:37.723 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:352 - HikariPool-1 - Shutdown completed.
+2019-01-05 21:19:32.880 INFO [main]com.example.demo.service.UserServiceTest.logStarting:50 - Starting UserServiceTest on DESKTOP-50H34IA with PID 10660 (started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-05 21:19:32.885 INFO [main]com.example.demo.service.UserServiceTest.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-05 21:19:36.782 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:19:37.731 INFO [main]com.example.demo.service.UserServiceTest.logStarted:59 - Started UserServiceTest in 5.596 seconds (JVM running for 7.562)
+2019-01-05 21:19:38.078 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 - HikariPool-1 - Starting...
+2019-01-05 21:19:38.358 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 - HikariPool-1 - Start completed.
+2019-01-05 21:19:39.245 INFO [Thread-3]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:19:39.251 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:350 - HikariPool-1 - Shutdown initiated...
+2019-01-05 21:19:39.327 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:352 - HikariPool-1 - Shutdown completed.
+2019-01-05 21:23:17.382 INFO [main]com.example.demo.service.UserServiceTest.logStarting:50 - Starting UserServiceTest on DESKTOP-50H34IA with PID 7240 (started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-05 21:23:17.386 INFO [main]com.example.demo.service.UserServiceTest.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-05 21:23:21.625 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:23:22.569 INFO [main]com.example.demo.service.UserServiceTest.logStarted:59 - Started UserServiceTest in 5.983 seconds (JVM running for 7.928)
+2019-01-05 21:23:22.958 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 - HikariPool-1 - Starting...
+2019-01-05 21:23:23.300 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 - HikariPool-1 - Start completed.
+2019-01-05 21:23:23.685 INFO [Thread-3]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:23:23.828 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:350 - HikariPool-1 - Shutdown initiated...
+2019-01-05 21:23:23.949 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:352 - HikariPool-1 - Shutdown completed.
+2019-01-05 21:31:07.052 INFO [main]com.example.demo.service.UserServiceTest.logStarting:50 - Starting UserServiceTest on DESKTOP-50H34IA with PID 7640 (started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-05 21:31:07.061 INFO [main]com.example.demo.service.UserServiceTest.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-05 21:31:10.978 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:31:11.913 INFO [main]com.example.demo.service.UserServiceTest.logStarted:59 - Started UserServiceTest in 5.621 seconds (JVM running for 7.526)
+2019-01-05 21:31:12.323 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 - HikariPool-1 - Starting...
+2019-01-05 21:31:12.697 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 - HikariPool-1 - Start completed.
+2019-01-05 21:31:13.130 INFO [Thread-3]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:31:13.136 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:350 - HikariPool-1 - Shutdown initiated...
+2019-01-05 21:31:13.193 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:352 - HikariPool-1 - Shutdown completed.
+2019-01-05 21:57:55.892 INFO [main]com.example.demo.service.UserServiceTest.logStarting:50 - Starting UserServiceTest on DESKTOP-50H34IA with PID 10052 (started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-05 21:57:55.896 INFO [main]com.example.demo.service.UserServiceTest.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-05 21:58:00.046 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:58:01.369 INFO [main]com.example.demo.service.UserServiceTest.logStarted:59 - Started UserServiceTest in 6.206 seconds (JVM running for 8.555)
+2019-01-05 21:58:01.819 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 - HikariPool-1 - Starting...
+2019-01-05 21:58:02.280 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 - HikariPool-1 - Start completed.
+2019-01-05 21:58:03.086 INFO [Thread-3]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-05 21:58:03.094 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:350 - HikariPool-1 - Shutdown initiated...
+2019-01-05 21:58:03.176 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:352 - HikariPool-1 - Shutdown completed.
+2019-01-05 21:59:59.368 INFO [main]com.example.demo.service.UserServiceTest.logStarting:50 - Starting UserServiceTest on DESKTOP-50H34IA with PID 4288 (started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-05 21:59:59.374 INFO [main]com.example.demo.service.UserServiceTest.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-05 22:00:05.603 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-05 22:00:06.717 INFO [main]com.example.demo.service.UserServiceTest.logStarted:59 - Started UserServiceTest in 8.049 seconds (JVM running for 10.511)
+2019-01-05 22:00:07.238 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 - HikariPool-1 - Starting...
+2019-01-05 22:00:07.718 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 - HikariPool-1 - Start completed.
+2019-01-05 22:00:08.292 INFO [Thread-3]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-05 22:00:08.295 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:350 - HikariPool-1 - Shutdown initiated...
+2019-01-05 22:00:08.346 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:352 - HikariPool-1 - Shutdown completed.
+2019-01-05 22:03:47.082 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarting:50 - Starting SpringBootExampleApplication on DESKTOP-50H34IA with PID 7936 (F:\localRepo\spring-boot-example\spring-boot-example\target\classes started by 浣曚笢 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-05 22:03:47.090 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-05 22:03:47.203 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-05 22:03:47.203 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-05 22:03:50.563 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 - Tomcat initialized with port(s): 8080 (http)
+2019-01-05 22:03:50.644 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-05 22:03:50.669 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Starting service [Tomcat]
+2019-01-05 22:03:50.670 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-05 22:03:50.703 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\software\dev\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/software/dev/Java/jre1.8.0_181/bin/server;F:/software/dev/Java/jre1.8.0_181/bin;F:/software/dev/Java/jre1.8.0_181/lib/amd64;F:\software\dev\Anaconda3;F:\software\dev\Anaconda3\Library\mingw-w64\bin;F:\software\dev\Anaconda3\Library\usr\bin;F:\software\dev\Anaconda3\Library\bin;F:\software\dev\Anaconda3\Scripts;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\software\dev\SSH Communications Security\SSH Secure Shell;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\Users\浣曚笢\AppData\Local\Microsoft\WindowsApps;;F:\software\dev\JetBrains\PyCharm 2018.3.1\bin;;F:\software\dev\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+2019-01-05 22:03:50.945 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring embedded WebApplicationContext
+2019-01-05 22:03:50.946 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 3742 ms
+2019-01-05 22:03:51.032 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2019-01-05 22:03:51.044 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-05 22:03:51.045 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-05 22:03:51.046 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-05 22:03:51.049 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-05 22:03:52.430 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-05 22:03:53.365 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 - LiveReload server is running on port 35729
+2019-01-05 22:03:53.454 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-05 22:03:53.591 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 - Using a shared selector for servlet write/read
+2019-01-05 22:03:53.628 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-05 22:03:53.638 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarted:59 - Started SpringBootExampleApplication in 7.744 seconds (JVM running for 8.668)
+2019-01-05 22:04:11.912 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-05 22:04:11.913 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 - Initializing Servlet 'dispatcherServlet'
+2019-01-05 22:04:11.938 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 - Completed initialization in 24 ms
+2019-01-05 22:10:44.225 INFO [main]com.example.demo.service.UserServiceTest.logStarting:50 - Starting UserServiceTest on DESKTOP-50H34IA with PID 12584 (started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-05 22:10:44.239 INFO [main]com.example.demo.service.UserServiceTest.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-05 22:10:48.211 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-05 22:10:49.161 INFO [main]com.example.demo.service.UserServiceTest.logStarted:59 - Started UserServiceTest in 5.694 seconds (JVM running for 7.804)
+2019-01-05 22:10:49.569 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 - HikariPool-1 - Starting...
+2019-01-05 22:10:49.900 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 - HikariPool-1 - Start completed.
+2019-01-05 22:10:50.287 INFO [Thread-3]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-05 22:10:50.297 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:350 - HikariPool-1 - Shutdown initiated...
+2019-01-05 22:10:50.345 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:352 - HikariPool-1 - Shutdown completed.
+2019-01-05 22:34:38.997 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarting:50 - Starting SpringBootExampleApplication on DESKTOP-50H34IA with PID 6420 (F:\localRepo\spring-boot-example\spring-boot-example\target\classes started by 浣曚笢 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-05 22:34:39.005 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-05 22:34:39.138 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-05 22:34:39.139 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-05 22:34:42.361 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 - Tomcat initialized with port(s): 8080 (http)
+2019-01-05 22:34:42.386 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-05 22:34:42.401 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Starting service [Tomcat]
+2019-01-05 22:34:42.402 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-05 22:34:42.428 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\software\dev\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/software/dev/Java/jre1.8.0_181/bin/server;F:/software/dev/Java/jre1.8.0_181/bin;F:/software/dev/Java/jre1.8.0_181/lib/amd64;F:\software\dev\Anaconda3;F:\software\dev\Anaconda3\Library\mingw-w64\bin;F:\software\dev\Anaconda3\Library\usr\bin;F:\software\dev\Anaconda3\Library\bin;F:\software\dev\Anaconda3\Scripts;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\software\dev\SSH Communications Security\SSH Secure Shell;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\Users\浣曚笢\AppData\Local\Microsoft\WindowsApps;;F:\software\dev\JetBrains\PyCharm 2018.3.1\bin;;F:\software\dev\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+2019-01-05 22:34:42.647 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring embedded WebApplicationContext
+2019-01-05 22:34:42.650 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 3510 ms
+2019-01-05 22:34:42.728 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2019-01-05 22:34:42.737 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-05 22:34:42.738 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-05 22:34:42.739 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-05 22:34:42.742 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-05 22:34:43.796 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-05 22:34:44.321 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 - LiveReload server is running on port 35729
+2019-01-05 22:34:44.398 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-05 22:34:44.419 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 - Using a shared selector for servlet write/read
+2019-01-05 22:34:44.456 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-05 22:34:44.466 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarted:59 - Started SpringBootExampleApplication in 6.406 seconds (JVM running for 7.24)
+2019-01-05 22:34:54.320 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-05 22:34:54.320 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 - Initializing Servlet 'dispatcherServlet'
+2019-01-05 22:34:54.340 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 - Completed initialization in 19 ms
+2019-01-05 22:35:24.460 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarting:50 - Starting SpringBootExampleApplication on DESKTOP-50H34IA with PID 8432 (F:\localRepo\spring-boot-example\spring-boot-example\target\classes started by 浣曚笢 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-05 22:35:24.468 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-05 22:35:24.589 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-05 22:35:24.592 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-05 22:35:28.273 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 - Tomcat initialized with port(s): 8080 (http)
+2019-01-05 22:35:28.311 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-05 22:35:28.325 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Starting service [Tomcat]
+2019-01-05 22:35:28.326 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-05 22:35:28.345 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\software\dev\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/software/dev/Java/jre1.8.0_181/bin/server;F:/software/dev/Java/jre1.8.0_181/bin;F:/software/dev/Java/jre1.8.0_181/lib/amd64;F:\software\dev\Anaconda3;F:\software\dev\Anaconda3\Library\mingw-w64\bin;F:\software\dev\Anaconda3\Library\usr\bin;F:\software\dev\Anaconda3\Library\bin;F:\software\dev\Anaconda3\Scripts;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\software\dev\SSH Communications Security\SSH Secure Shell;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\Users\浣曚笢\AppData\Local\Microsoft\WindowsApps;;F:\software\dev\JetBrains\PyCharm 2018.3.1\bin;;F:\software\dev\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+2019-01-05 22:35:28.507 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring embedded WebApplicationContext
+2019-01-05 22:35:28.508 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 3915 ms
+2019-01-05 22:35:28.572 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2019-01-05 22:35:28.585 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-05 22:35:28.586 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-05 22:35:28.587 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-05 22:35:28.591 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-05 22:35:29.725 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-05 22:35:30.225 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 - LiveReload server is running on port 35729
+2019-01-05 22:35:30.297 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-05 22:35:30.316 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 - Using a shared selector for servlet write/read
+2019-01-05 22:35:30.345 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-05 22:35:30.361 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarted:59 - Started SpringBootExampleApplication in 6.966 seconds (JVM running for 8.063)
+2019-01-05 22:35:43.966 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-05 22:35:43.967 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 - Initializing Servlet 'dispatcherServlet'
+2019-01-05 22:35:43.985 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 - Completed initialization in 18 ms

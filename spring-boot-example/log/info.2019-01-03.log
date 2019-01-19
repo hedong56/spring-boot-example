@@ -1,0 +1,434 @@
+2019-01-03 00:00:36.630 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarting:50 - Starting SpringBootExampleApplication on DESKTOP-50H34IA with PID 4368 (F:\localRepo\spring-boot-example\spring-boot-example\target\classes started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 00:00:36.639 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 00:00:36.796 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 00:00:36.797 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 00:00:40.074 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 00:00:40.109 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:00:40.122 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Starting service [Tomcat]
+2019-01-03 00:00:40.123 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-03 00:00:40.143 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\software\dev\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/software/dev/Java/jre1.8.0_181/bin/server;F:/software/dev/Java/jre1.8.0_181/bin;F:/software/dev/Java/jre1.8.0_181/lib/amd64;F:\software\dev\Anaconda3;F:\software\dev\Anaconda3\Library\mingw-w64\bin;F:\software\dev\Anaconda3\Library\usr\bin;F:\software\dev\Anaconda3\Library\bin;F:\software\dev\Anaconda3\Scripts;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\software\dev\SSH Communications Security\SSH Secure Shell;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\Users\何东\AppData\Local\Microsoft\WindowsApps;;F:\software\dev\JetBrains\PyCharm 2018.3.1\bin;;F:\software\dev\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+2019-01-03 00:00:40.325 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring embedded WebApplicationContext
+2019-01-03 00:00:40.328 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 3529 ms
+2019-01-03 00:00:40.411 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2019-01-03 00:00:40.418 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-03 00:00:40.419 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-03 00:00:40.420 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-03 00:00:40.423 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-03 00:00:41.538 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 00:00:42.080 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 - LiveReload server is running on port 35729
+2019-01-03 00:00:42.144 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:00:42.168 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 - Using a shared selector for servlet write/read
+2019-01-03 00:00:42.199 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 00:00:42.209 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarted:59 - Started SpringBootExampleApplication in 6.435 seconds (JVM running for 7.294)
+2019-01-03 00:00:50.489 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 00:00:50.491 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 - Initializing Servlet 'dispatcherServlet'
+2019-01-03 00:00:50.511 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 - Completed initialization in 19 ms
+2019-01-03 00:07:47.867 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarting:50 - Starting SpringBootExampleApplication on DESKTOP-50H34IA with PID 7156 (F:\localRepo\spring-boot-example\spring-boot-example\target\classes started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 00:07:47.873 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 00:07:47.990 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 00:07:47.990 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 00:07:51.242 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 00:07:51.269 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:07:51.281 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Starting service [Tomcat]
+2019-01-03 00:07:51.281 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-03 00:07:51.300 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\software\dev\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/software/dev/Java/jre1.8.0_181/bin/server;F:/software/dev/Java/jre1.8.0_181/bin;F:/software/dev/Java/jre1.8.0_181/lib/amd64;F:\software\dev\Anaconda3;F:\software\dev\Anaconda3\Library\mingw-w64\bin;F:\software\dev\Anaconda3\Library\usr\bin;F:\software\dev\Anaconda3\Library\bin;F:\software\dev\Anaconda3\Scripts;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\software\dev\SSH Communications Security\SSH Secure Shell;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\Users\何东\AppData\Local\Microsoft\WindowsApps;;F:\software\dev\JetBrains\PyCharm 2018.3.1\bin;;F:\software\dev\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+2019-01-03 00:07:51.481 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring embedded WebApplicationContext
+2019-01-03 00:07:51.482 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 3491 ms
+2019-01-03 00:07:51.563 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2019-01-03 00:07:51.578 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-03 00:07:51.582 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-03 00:07:51.584 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-03 00:07:51.588 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-03 00:07:53.113 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 00:07:53.673 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 - LiveReload server is running on port 35729
+2019-01-03 00:07:53.756 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:07:53.793 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 - Using a shared selector for servlet write/read
+2019-01-03 00:07:53.835 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 00:07:53.847 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarted:59 - Started SpringBootExampleApplication in 6.794 seconds (JVM running for 7.581)
+2019-01-03 00:08:02.962 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 00:08:02.962 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 - Initializing Servlet 'dispatcherServlet'
+2019-01-03 00:08:02.987 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 - Completed initialization in 24 ms
+2019-01-03 00:13:24.077 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarting:50 - Starting SpringBootExampleApplication on DESKTOP-50H34IA with PID 2732 (F:\localRepo\spring-boot-example\spring-boot-example\target\classes started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 00:13:24.084 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 00:13:24.190 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 00:13:24.191 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 00:13:27.423 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 00:13:27.448 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:13:27.467 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Starting service [Tomcat]
+2019-01-03 00:13:27.468 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-03 00:13:27.492 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\software\dev\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/software/dev/Java/jre1.8.0_181/bin/server;F:/software/dev/Java/jre1.8.0_181/bin;F:/software/dev/Java/jre1.8.0_181/lib/amd64;F:\software\dev\Anaconda3;F:\software\dev\Anaconda3\Library\mingw-w64\bin;F:\software\dev\Anaconda3\Library\usr\bin;F:\software\dev\Anaconda3\Library\bin;F:\software\dev\Anaconda3\Scripts;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\software\dev\SSH Communications Security\SSH Secure Shell;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\Users\何东\AppData\Local\Microsoft\WindowsApps;;F:\software\dev\JetBrains\PyCharm 2018.3.1\bin;;F:\software\dev\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+2019-01-03 00:13:27.711 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring embedded WebApplicationContext
+2019-01-03 00:13:27.734 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 3542 ms
+2019-01-03 00:13:27.862 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2019-01-03 00:13:27.874 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-03 00:13:27.875 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-03 00:13:27.876 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-03 00:13:27.877 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-03 00:13:29.021 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 00:13:29.565 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 - LiveReload server is running on port 35729
+2019-01-03 00:13:29.652 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:13:29.699 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 - Using a shared selector for servlet write/read
+2019-01-03 00:13:29.783 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 00:13:29.794 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarted:59 - Started SpringBootExampleApplication in 6.493 seconds (JVM running for 7.285)
+2019-01-03 00:13:36.250 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 00:13:36.250 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 - Initializing Servlet 'dispatcherServlet'
+2019-01-03 00:13:36.269 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 - Completed initialization in 19 ms
+2019-01-03 00:14:41.009 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarting:50 - Starting SpringBootExampleApplication on DESKTOP-50H34IA with PID 1628 (F:\localRepo\spring-boot-example\spring-boot-example\target\classes started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 00:14:41.044 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 00:14:41.228 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 00:14:41.229 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 00:14:46.242 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 00:14:46.279 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:14:46.301 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Starting service [Tomcat]
+2019-01-03 00:14:46.303 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-03 00:14:46.401 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\software\dev\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/software/dev/Java/jre1.8.0_181/bin/server;F:/software/dev/Java/jre1.8.0_181/bin;F:/software/dev/Java/jre1.8.0_181/lib/amd64;F:\software\dev\Anaconda3;F:\software\dev\Anaconda3\Library\mingw-w64\bin;F:\software\dev\Anaconda3\Library\usr\bin;F:\software\dev\Anaconda3\Library\bin;F:\software\dev\Anaconda3\Scripts;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\software\dev\SSH Communications Security\SSH Secure Shell;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\Users\何东\AppData\Local\Microsoft\WindowsApps;;F:\software\dev\JetBrains\PyCharm 2018.3.1\bin;;F:\software\dev\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+2019-01-03 00:14:47.065 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring embedded WebApplicationContext
+2019-01-03 00:14:47.067 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 5837 ms
+2019-01-03 00:14:47.221 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2019-01-03 00:14:47.239 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-03 00:14:47.241 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-03 00:14:47.242 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-03 00:14:47.250 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-03 00:14:49.339 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 00:14:50.377 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 - LiveReload server is running on port 35729
+2019-01-03 00:14:50.491 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:14:50.522 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 - Using a shared selector for servlet write/read
+2019-01-03 00:14:50.865 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 00:14:50.879 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarted:59 - Started SpringBootExampleApplication in 11.435 seconds (JVM running for 13.475)
+2019-01-03 00:14:51.283 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 00:14:51.284 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 - Initializing Servlet 'dispatcherServlet'
+2019-01-03 00:14:51.332 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 - Completed initialization in 47 ms
+2019-01-03 00:19:06.644 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarting:50 - Starting SpringBootExampleApplication on DESKTOP-50H34IA with PID 10888 (F:\localRepo\spring-boot-example\spring-boot-example\target\classes started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 00:19:06.660 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 00:19:06.879 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 00:19:06.894 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 00:19:12.410 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 00:19:12.452 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:19:12.468 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Starting service [Tomcat]
+2019-01-03 00:19:12.468 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-03 00:19:12.514 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\software\dev\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/software/dev/Java/jre1.8.0_181/bin/server;F:/software/dev/Java/jre1.8.0_181/bin;F:/software/dev/Java/jre1.8.0_181/lib/amd64;F:\software\dev\Anaconda3;F:\software\dev\Anaconda3\Library\mingw-w64\bin;F:\software\dev\Anaconda3\Library\usr\bin;F:\software\dev\Anaconda3\Library\bin;F:\software\dev\Anaconda3\Scripts;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\software\dev\SSH Communications Security\SSH Secure Shell;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\Users\何东\AppData\Local\Microsoft\WindowsApps;;F:\software\dev\JetBrains\PyCharm 2018.3.1\bin;;F:\software\dev\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+2019-01-03 00:19:12.936 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring embedded WebApplicationContext
+2019-01-03 00:19:12.936 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 6042 ms
+2019-01-03 00:19:13.030 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2019-01-03 00:19:13.046 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-03 00:19:13.046 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-03 00:19:13.046 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-03 00:19:13.046 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-03 00:19:14.499 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 00:19:15.174 WARN [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:61 - Unable to start LiveReload server
+2019-01-03 00:19:15.268 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:19:15.299 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Pausing ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:19:15.299 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Stopping service [Tomcat]
+2019-01-03 00:19:15.330 INFO [restartedMain]org.apache.catalina.util.LifecycleBase.log:173 - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-01-03 00:19:15.330 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Stopping ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:19:15.346 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Destroying ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:19:15.346 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:142 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-03 00:19:15.377 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-03 00:19:53.512 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarting:50 - Starting SpringBootExampleApplication on DESKTOP-50H34IA with PID 4456 (F:\localRepo\spring-boot-example\spring-boot-example\target\classes started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 00:19:53.528 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 00:19:53.700 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 00:19:53.700 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 00:19:58.418 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 00:19:58.450 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:19:58.466 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Starting service [Tomcat]
+2019-01-03 00:19:58.466 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-03 00:19:58.513 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\software\dev\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/software/dev/Java/jre1.8.0_181/bin/server;F:/software/dev/Java/jre1.8.0_181/bin;F:/software/dev/Java/jre1.8.0_181/lib/amd64;F:\software\dev\Anaconda3;F:\software\dev\Anaconda3\Library\mingw-w64\bin;F:\software\dev\Anaconda3\Library\usr\bin;F:\software\dev\Anaconda3\Library\bin;F:\software\dev\Anaconda3\Scripts;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\software\dev\SSH Communications Security\SSH Secure Shell;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\Users\何东\AppData\Local\Microsoft\WindowsApps;;F:\software\dev\JetBrains\PyCharm 2018.3.1\bin;;F:\software\dev\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+2019-01-03 00:19:58.888 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring embedded WebApplicationContext
+2019-01-03 00:19:58.888 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 5188 ms
+2019-01-03 00:19:58.981 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2019-01-03 00:19:58.997 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-03 00:19:58.997 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-03 00:19:58.997 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-03 00:19:59.013 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-03 00:20:00.591 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 00:20:01.412 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 - LiveReload server is running on port 35729
+2019-01-03 00:20:01.521 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:20:01.552 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 - Using a shared selector for servlet write/read
+2019-01-03 00:20:01.677 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 00:20:01.689 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarted:59 - Started SpringBootExampleApplication in 9.689 seconds (JVM running for 11.9)
+2019-01-03 00:20:48.215 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 00:20:48.216 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 - Initializing Servlet 'dispatcherServlet'
+2019-01-03 00:20:48.246 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 - Completed initialization in 28 ms
+2019-01-03 00:24:31.464 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarting:50 - Starting SpringBootExampleApplication on DESKTOP-50H34IA with PID 8984 (F:\localRepo\spring-boot-example\spring-boot-example\target\classes started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 00:24:31.464 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 00:24:31.589 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 00:24:31.589 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 00:24:34.620 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 00:24:34.643 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:24:34.658 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Starting service [Tomcat]
+2019-01-03 00:24:34.658 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-03 00:24:34.674 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\software\dev\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/software/dev/Java/jre1.8.0_181/bin/server;F:/software/dev/Java/jre1.8.0_181/bin;F:/software/dev/Java/jre1.8.0_181/lib/amd64;F:\software\dev\Anaconda3;F:\software\dev\Anaconda3\Library\mingw-w64\bin;F:\software\dev\Anaconda3\Library\usr\bin;F:\software\dev\Anaconda3\Library\bin;F:\software\dev\Anaconda3\Scripts;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\software\dev\SSH Communications Security\SSH Secure Shell;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\Users\何东\AppData\Local\Microsoft\WindowsApps;;F:\software\dev\JetBrains\PyCharm 2018.3.1\bin;;F:\software\dev\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+2019-01-03 00:24:34.830 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring embedded WebApplicationContext
+2019-01-03 00:24:34.830 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 3241 ms
+2019-01-03 00:24:34.908 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2019-01-03 00:24:34.908 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-03 00:24:34.908 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-03 00:24:34.908 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-03 00:24:34.924 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-03 00:24:36.017 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 00:24:36.623 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 - LiveReload server is running on port 35729
+2019-01-03 00:24:36.686 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:24:36.717 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 - Using a shared selector for servlet write/read
+2019-01-03 00:24:36.748 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 00:24:36.748 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarted:59 - Started SpringBootExampleApplication in 6.041 seconds (JVM running for 6.872)
+2019-01-03 00:24:43.073 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 00:24:43.074 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 - Initializing Servlet 'dispatcherServlet'
+2019-01-03 00:24:43.094 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 - Completed initialization in 20 ms
+2019-01-03 00:25:40.367 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarting:50 - Starting SpringBootExampleApplication on DESKTOP-50H34IA with PID 4688 (F:\localRepo\spring-boot-example\spring-boot-example\target\classes started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 00:25:40.367 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 00:25:40.476 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 00:25:40.476 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 00:25:43.491 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 00:25:43.519 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:25:43.534 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Starting service [Tomcat]
+2019-01-03 00:25:43.534 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-03 00:25:43.566 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\software\dev\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/software/dev/Java/jre1.8.0_181/bin/server;F:/software/dev/Java/jre1.8.0_181/bin;F:/software/dev/Java/jre1.8.0_181/lib/amd64;F:\software\dev\Anaconda3;F:\software\dev\Anaconda3\Library\mingw-w64\bin;F:\software\dev\Anaconda3\Library\usr\bin;F:\software\dev\Anaconda3\Library\bin;F:\software\dev\Anaconda3\Scripts;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\software\dev\SSH Communications Security\SSH Secure Shell;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\Users\何东\AppData\Local\Microsoft\WindowsApps;;F:\software\dev\JetBrains\PyCharm 2018.3.1\bin;;F:\software\dev\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+2019-01-03 00:25:43.753 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring embedded WebApplicationContext
+2019-01-03 00:25:43.753 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 3277 ms
+2019-01-03 00:25:43.816 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2019-01-03 00:25:43.831 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-03 00:25:43.831 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-03 00:25:43.831 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-03 00:25:43.831 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-03 00:25:44.925 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 00:25:45.528 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 - LiveReload server is running on port 35729
+2019-01-03 00:25:45.606 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 00:25:45.622 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 - Using a shared selector for servlet write/read
+2019-01-03 00:25:45.668 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 00:25:45.684 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarted:59 - Started SpringBootExampleApplication in 6.094 seconds (JVM running for 6.917)
+2019-01-03 00:25:52.060 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 00:25:52.061 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 - Initializing Servlet 'dispatcherServlet'
+2019-01-03 00:25:52.080 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 - Completed initialization in 19 ms
+2019-01-03 22:23:09.819 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarting:50 - Starting SpringBootExampleApplication on DESKTOP-50H34IA with PID 3348 (F:\localRepo\spring-boot-example\spring-boot-example\target\classes started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 22:23:09.910 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 22:23:10.136 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 22:23:10.137 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 22:23:13.540 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 22:23:13.571 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 22:23:13.587 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Starting service [Tomcat]
+2019-01-03 22:23:13.588 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-03 22:23:13.609 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\software\dev\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/software/dev/Java/jre1.8.0_181/bin/server;F:/software/dev/Java/jre1.8.0_181/bin;F:/software/dev/Java/jre1.8.0_181/lib/amd64;F:\software\dev\Anaconda3;F:\software\dev\Anaconda3\Library\mingw-w64\bin;F:\software\dev\Anaconda3\Library\usr\bin;F:\software\dev\Anaconda3\Library\bin;F:\software\dev\Anaconda3\Scripts;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\software\dev\SSH Communications Security\SSH Secure Shell;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\Users\何东\AppData\Local\Microsoft\WindowsApps;;F:\software\dev\JetBrains\PyCharm 2018.3.1\bin;;F:\software\dev\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+2019-01-03 22:23:13.797 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring embedded WebApplicationContext
+2019-01-03 22:23:13.803 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 3665 ms
+2019-01-03 22:23:13.884 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2019-01-03 22:23:13.893 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-03 22:23:13.894 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-03 22:23:13.895 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-03 22:23:13.898 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-03 22:23:15.046 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 22:23:15.616 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 - LiveReload server is running on port 35729
+2019-01-03 22:23:15.680 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 22:23:15.699 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 - Using a shared selector for servlet write/read
+2019-01-03 22:23:15.748 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 22:23:15.757 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarted:59 - Started SpringBootExampleApplication in 6.997 seconds (JVM running for 7.951)
+2019-01-03 22:23:48.751 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 22:23:48.752 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 - Initializing Servlet 'dispatcherServlet'
+2019-01-03 22:23:48.776 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 - Completed initialization in 20 ms
+2019-01-03 22:23:54.528 INFO [http-nio-8080-exec-2]com.example.demo.controller.FileController.upload:48 - name=
+2019-01-03 22:24:25.736 INFO [http-nio-8080-exec-7]com.example.demo.controller.FileController.upload:48 - name=张三
+2019-01-03 22:26:23.351 INFO [Thread-6]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-03 22:26:24.013 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarting:50 - Starting SpringBootExampleApplication on DESKTOP-50H34IA with PID 3348 (F:\localRepo\spring-boot-example\spring-boot-example\target\classes started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 22:26:24.014 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 22:26:24.731 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 22:26:24.733 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 22:26:24.735 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Starting service [Tomcat]
+2019-01-03 22:26:24.735 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-03 22:26:24.766 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring embedded WebApplicationContext
+2019-01-03 22:26:24.767 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 747 ms
+2019-01-03 22:26:24.782 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2019-01-03 22:26:24.784 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-03 22:26:24.785 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-03 22:26:24.786 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-03 22:26:24.787 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-03 22:26:25.041 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 22:26:25.197 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 - LiveReload server is running on port 35729
+2019-01-03 22:26:25.237 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 22:26:25.243 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 - Using a shared selector for servlet write/read
+2019-01-03 22:26:25.256 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 22:26:25.261 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarted:59 - Started SpringBootExampleApplication in 1.425 seconds (JVM running for 197.454)
+2019-01-03 22:26:25.273 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:56 - Condition evaluation unchanged
+2019-01-03 22:26:32.637 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 22:26:32.638 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 - Initializing Servlet 'dispatcherServlet'
+2019-01-03 22:26:32.648 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 - Completed initialization in 9 ms
+2019-01-03 22:31:00.450 INFO [Thread-10]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-03 22:31:01.124 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarting:50 - Starting SpringBootExampleApplication on DESKTOP-50H34IA with PID 3348 (F:\localRepo\spring-boot-example\spring-boot-example\target\classes started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 22:31:01.126 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 22:31:01.739 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 22:31:01.741 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 22:31:01.742 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Starting service [Tomcat]
+2019-01-03 22:31:01.745 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-03 22:31:01.768 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring embedded WebApplicationContext
+2019-01-03 22:31:01.769 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 638 ms
+2019-01-03 22:31:01.788 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2019-01-03 22:31:01.798 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-03 22:31:01.801 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-03 22:31:01.803 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-03 22:31:01.805 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-03 22:31:02.033 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 22:31:02.172 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 - LiveReload server is running on port 35729
+2019-01-03 22:31:02.202 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 22:31:02.205 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 - Using a shared selector for servlet write/read
+2019-01-03 22:31:02.210 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 22:31:02.212 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarted:59 - Started SpringBootExampleApplication in 1.338 seconds (JVM running for 474.405)
+2019-01-03 22:31:02.215 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:56 - Condition evaluation unchanged
+2019-01-03 22:31:21.925 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 22:31:21.925 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 - Initializing Servlet 'dispatcherServlet'
+2019-01-03 22:31:21.930 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 - Completed initialization in 5 ms
+2019-01-03 22:31:30.046 INFO [http-nio-8080-exec-3]com.example.demo.controller.FileController.upload:47 - name=
+2019-01-03 22:36:21.121 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarting:50 - Starting SpringBootExampleApplication on DESKTOP-50H34IA with PID 12516 (F:\localRepo\spring-boot-example\spring-boot-example\target\classes started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 22:36:21.130 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 22:36:21.257 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 22:36:21.260 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 22:36:24.755 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 22:36:24.797 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 22:36:24.822 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Starting service [Tomcat]
+2019-01-03 22:36:24.823 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-03 22:36:24.842 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\software\dev\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/software/dev/Java/jre1.8.0_181/bin/server;F:/software/dev/Java/jre1.8.0_181/bin;F:/software/dev/Java/jre1.8.0_181/lib/amd64;F:\software\dev\Anaconda3;F:\software\dev\Anaconda3\Library\mingw-w64\bin;F:\software\dev\Anaconda3\Library\usr\bin;F:\software\dev\Anaconda3\Library\bin;F:\software\dev\Anaconda3\Scripts;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\software\dev\SSH Communications Security\SSH Secure Shell;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\Users\何东\AppData\Local\Microsoft\WindowsApps;;F:\software\dev\JetBrains\PyCharm 2018.3.1\bin;;F:\software\dev\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+2019-01-03 22:36:25.139 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring embedded WebApplicationContext
+2019-01-03 22:36:25.140 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 3878 ms
+2019-01-03 22:36:25.255 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2019-01-03 22:36:25.272 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-03 22:36:25.273 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-03 22:36:25.274 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-03 22:36:25.282 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-03 22:36:26.424 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 22:36:27.385 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 - LiveReload server is running on port 35729
+2019-01-03 22:36:27.486 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 22:36:27.509 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 - Using a shared selector for servlet write/read
+2019-01-03 22:36:27.571 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 22:36:27.588 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarted:59 - Started SpringBootExampleApplication in 7.277 seconds (JVM running for 8.12)
+2019-01-03 22:36:35.093 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 22:36:35.094 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 - Initializing Servlet 'dispatcherServlet'
+2019-01-03 22:36:35.108 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 - Completed initialization in 14 ms
+2019-01-03 22:37:18.736 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarting:50 - Starting SpringBootExampleApplication on DESKTOP-50H34IA with PID 10680 (F:\localRepo\spring-boot-example\spring-boot-example\target\classes started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 22:37:18.755 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 22:37:18.965 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 22:37:18.969 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 22:37:24.107 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 22:37:24.160 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 22:37:24.187 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Starting service [Tomcat]
+2019-01-03 22:37:24.188 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-03 22:37:24.249 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\software\dev\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/software/dev/Java/jre1.8.0_181/bin/server;F:/software/dev/Java/jre1.8.0_181/bin;F:/software/dev/Java/jre1.8.0_181/lib/amd64;F:\software\dev\Anaconda3;F:\software\dev\Anaconda3\Library\mingw-w64\bin;F:\software\dev\Anaconda3\Library\usr\bin;F:\software\dev\Anaconda3\Library\bin;F:\software\dev\Anaconda3\Scripts;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\software\dev\SSH Communications Security\SSH Secure Shell;F:\app\hedong\virtual\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\software\dev\Java\jdk1.8.0_181\bin;F:\software\dev\Java\jdk1.8.0_181\jre\bin;F:\software\dev\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\Users\何东\AppData\Local\Microsoft\WindowsApps;;F:\software\dev\JetBrains\PyCharm 2018.3.1\bin;;F:\software\dev\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+2019-01-03 22:37:24.788 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring embedded WebApplicationContext
+2019-01-03 22:37:24.796 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 5823 ms
+2019-01-03 22:37:24.904 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2019-01-03 22:37:24.930 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-03 22:37:24.931 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-03 22:37:24.932 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-03 22:37:24.936 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-03 22:37:26.696 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 22:37:27.870 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 - LiveReload server is running on port 35729
+2019-01-03 22:37:27.960 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 22:37:27.985 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 - Using a shared selector for servlet write/read
+2019-01-03 22:37:28.107 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 22:37:28.117 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarted:59 - Started SpringBootExampleApplication in 10.943 seconds (JVM running for 14.074)
+2019-01-03 22:37:29.334 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 22:37:29.335 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 - Initializing Servlet 'dispatcherServlet'
+2019-01-03 22:37:29.363 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 - Completed initialization in 27 ms
+2019-01-03 22:40:13.443 INFO [Thread-6]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-03 22:40:13.995 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarting:50 - Starting SpringBootExampleApplication on DESKTOP-50H34IA with PID 10680 (F:\localRepo\spring-boot-example\spring-boot-example\target\classes started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 22:40:13.996 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 22:40:15.094 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 22:40:15.098 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 22:40:15.101 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 - Starting service [Tomcat]
+2019-01-03 22:40:15.102 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-03 22:40:15.137 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring embedded WebApplicationContext
+2019-01-03 22:40:15.140 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 1135 ms
+2019-01-03 22:40:15.172 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2019-01-03 22:40:15.178 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-03 22:40:15.182 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-03 22:40:15.185 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'formContentFilter' to: [/*]
+2019-01-03 22:40:15.189 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-03 22:40:15.689 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 22:40:15.897 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 - LiveReload server is running on port 35729
+2019-01-03 22:40:15.960 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 22:40:15.962 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 - Using a shared selector for servlet write/read
+2019-01-03 22:40:16.066 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 22:40:16.069 INFO [restartedMain]com.example.demo.SpringBootExampleApplication.logStarted:59 - Started SpringBootExampleApplication in 2.207 seconds (JVM running for 182.028)
+2019-01-03 22:40:16.075 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:56 - Condition evaluation unchanged
+2019-01-03 22:40:25.713 INFO [http-nio-8080-exec-3]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 22:40:25.714 INFO [http-nio-8080-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 - Initializing Servlet 'dispatcherServlet'
+2019-01-03 22:40:25.725 INFO [http-nio-8080-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 - Completed initialization in 11 ms
+2019-01-03 22:58:50.618 INFO [main]com.example.demo.service.UserServiceTest.logStarting:50 - Starting UserServiceTest on DESKTOP-50H34IA with PID 5084 (started by �ζ� in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 22:58:50.632 INFO [main]com.example.demo.service.UserServiceTest.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 22:58:53.064 INFO [main]com.example.demo.service.UserServiceTest.logStarting:50 - Starting UserServiceTest on DESKTOP-50H34IA with PID 5084 (started by �ζ� in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 22:58:53.066 INFO [main]com.example.demo.service.UserServiceTest.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 23:02:26.505 INFO [main]com.example.demo.service.UserServiceTest.logStarting:50 - Starting UserServiceTest on DESKTOP-50H34IA with PID 8728 (started by 何东 in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 23:02:26.509 INFO [main]com.example.demo.service.UserServiceTest.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 23:09:14.376 INFO [main]com.example.demo.service.UserServiceTest.logStarting:50 - Starting UserServiceTest on DESKTOP-50H34IA with PID 10908 (started by �ζ� in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 23:09:14.390 INFO [main]com.example.demo.service.UserServiceTest.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 23:11:26.376 INFO [main]com.example.demo.service.UserServiceTest.logStarting:50 - Starting UserServiceTest on DESKTOP-50H34IA with PID 2628 (started by �ζ� in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 23:11:26.390 INFO [main]com.example.demo.service.UserServiceTest.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 23:11:30.530 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 23:11:31.457 INFO [main]com.example.demo.service.UserServiceTest.logStarted:59 - Started UserServiceTest in 5.86 seconds (JVM running for 7.913)
+2019-01-03 23:11:31.510 WARN [main]org.springframework.test.context.TestContextManager.logException:548 - Caught exception while invoking 'beforeTestMethod' callback on TestExecutionListener [org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@378542de] for test method [public void com.example.demo.service.UserServiceTest.testGetUserById2()] and test instance [com.example.demo.service.UserServiceTest@7487b142]
+java.lang.NoSuchMethodError: org.mockito.Mockito.mockingDetails(Ljava/lang/Object;)Lorg/mockito/MockingDetails;
+	at org.springframework.boot.test.mock.mockito.MockReset.get(MockReset.java:105)
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.resetMocks(ResetMocksTestExecutionListener.java:84)
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.resetMocks(ResetMocksTestExecutionListener.java:70)
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.beforeTestMethod(ResetMocksTestExecutionListener.java:57)
+	at org.springframework.test.context.TestContextManager.beforeTestMethod(TestContextManager.java:291)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2019-01-03 23:11:31.587 WARN [main]org.springframework.test.context.TestContextManager.logException:548 - Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@378542de] for test method [public void com.example.demo.service.UserServiceTest.testGetUserById2()] and test instance [com.example.demo.service.UserServiceTest@7487b142]
+java.lang.NoSuchMethodError: org.mockito.Mockito.mockingDetails(Ljava/lang/Object;)Lorg/mockito/MockingDetails;
+	at org.springframework.boot.test.mock.mockito.MockReset.get(MockReset.java:105)
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.resetMocks(ResetMocksTestExecutionListener.java:84)
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.resetMocks(ResetMocksTestExecutionListener.java:70)
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.afterTestMethod(ResetMocksTestExecutionListener.java:64)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:443)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2019-01-03 23:11:32.052 INFO [Thread-3]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-03 23:26:38.241 INFO [main]com.example.demo.service.UserServiceTest.logStarting:50 - Starting UserServiceTest on DESKTOP-50H34IA with PID 4016 (started by �ζ� in F:\localRepo\spring-boot-example\spring-boot-example)
+2019-01-03 23:26:38.266 INFO [main]com.example.demo.service.UserServiceTest.logStartupProfileInfo:675 - No active profile set, falling back to default profiles: default
+2019-01-03 23:26:42.318 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 23:26:43.181 INFO [main]com.example.demo.service.UserServiceTest.logStarted:59 - Started UserServiceTest in 5.768 seconds (JVM running for 7.957)
+2019-01-03 23:26:43.639 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:110 - HikariPool-1 - Starting...
+2019-01-03 23:26:44.162 INFO [main]com.zaxxer.hikari.HikariDataSource.getConnection:123 - HikariPool-1 - Start completed.
+2019-01-03 23:26:44.522 INFO [Thread-3]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-03 23:26:44.529 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:350 - HikariPool-1 - Shutdown initiated...
+2019-01-03 23:26:44.610 INFO [Thread-3]com.zaxxer.hikari.HikariDataSource.close:352 - HikariPool-1 - Shutdown completed.
