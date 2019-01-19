@@ -11,10 +11,10 @@ import com.example.demo.dto.UserInfo;
 public class FreemarkerController {
 	
 	@RequestMapping("index")
-	public String getFreemarkerPage(ModelMap modlMap ) {
-		modlMap.put("name", "freemarker");
+	public String getFreemarkerPage(ModelMap modelMap ) {
+		modelMap.put("name", "freemarker");
 		UserInfo userInfo=new UserInfo("张三", "绵阳");
-		modlMap.addAttribute("userInfo", userInfo);
+		modelMap.addAttribute("userInfo", userInfo);
 		return "fmk/index"; //会根据配置文件的路径去找index.ftl文件
 	}
 
